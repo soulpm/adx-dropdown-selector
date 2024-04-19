@@ -1,0 +1,39 @@
+{
+    "manifestVersion": 1,
+    "id": "dropdownSelector",
+    "publisher": "",
+    "version": "1.0.0",
+    "name": "A dropdown selector extension",
+    "description": "A dropdown selector service extension",
+    "public": false,
+    "categories": ["Azure Repos"],
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "dropdownSelector",
+            "type": "ms.vss-web.hub",
+            "targets": [
+                "ms.vss-code-web.code-hub-group"
+            ],
+            "properties": {
+                "name": "Dropdown Selector",
+                "uri": "my-hub.html"
+            }
+        }
+    ],
+    "files": [
+        {
+            "path": "my-hub.html",
+            "addressable": true
+        },
+        {
+            "path": "node_modules/azure-devops-extension-sdk",
+            "addressable": true,
+            "packagePath": "lib"
+        }
+    ]
+}
