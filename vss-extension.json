@@ -1,12 +1,12 @@
 {
     "manifestVersion": 1,
     "id": "dropdownSelector",
-    "publisher": "",
-    "version": "1.0.0",
+    "publisher": "mibancoDevSecOps",
+    "version": "1.0.1",
     "name": "A dropdown selector extension",
     "description": "A dropdown selector service extension",
     "public": false,
-    "categories": ["Azure Repos"],
+    "categories": ["Azure Pipelines"],
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
